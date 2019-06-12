@@ -1,0 +1,38 @@
+Package: ggeefive
+Type: Package
+Title: G5 Theme for ggplot2
+Version: 0.1.0
+Author: Kiley Borrevik
+Maintainer: Kiley Borrevik <kiley.borrevik@getg5.com>
+Description: G5 Theme for ggplot2
+License: Private
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2 (>= 3.0.0),
+    graphics,
+    grid,
+    methods,
+    purrr,
+    scales,
+    stringr,
+    tibble
+Suggests:
+    dplyr,
+    covr,
+    extrafont,
+    glue,
+    knitr,
+    lattice,
+    lintr,
+    maps,
+    mapproj,
+    pander,
+    rlang,
+    rmarkdown,
+    spelling,    
+    testthat,
+    tidyr,
+    vdiffr,
+    withr
+RoxygenNote: 6.1.1
