@@ -12,6 +12,7 @@
 #' @import ggthemes
 #' @import dplyr
 #' @importFrom tibble tibble
+#' @importFrom tibble deframe
 theme_geefive<- function(base_size = 12, base_family = "mono") {
   geefive_data <- tibble(name = c("Midnight Blue",
                                   "Blue Gray",
@@ -54,6 +55,13 @@ theme_geefive<- function(base_size = 12, base_family = "mono") {
 #'
 #' @family colour geefive
 #' @export
+#' @importFrom grid unit
+#' @import ggplot2
+#' @import scales
+#' @import ggthemes
+#' @import dplyr
+#' @importFrom tibble tibble
+#' @importFrom tibble deframe
 geefive_pal <- function() {
   geefive_data <- tibble(name = c("Midnight Blue",
                                   "Blue Gray",
