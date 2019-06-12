@@ -4,7 +4,7 @@
 \alias{theme_geefive}
 \title{Theme inspired by G5 Branding}
 \usage{
-theme_geefive(base_size = 12, base_family = "roboto")
+theme_geefive(base_size = 12, base_family = "mono")
 }
 \arguments{
 \item{base_size}{base font size}

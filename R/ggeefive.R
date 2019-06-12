@@ -7,6 +7,11 @@
 #' @family themes g5
 #' @export
 #' @importFrom grid unit
+#' @import ggplot2
+#' @import scales
+#' @import ggthemes
+#' @import dplyr
+#' @importFrom tibble tibble
 theme_geefive<- function(base_size = 12, base_family = "mono") {
   geefive_data <- tibble(name = c("Midnight Blue",
                                   "Blue Gray",

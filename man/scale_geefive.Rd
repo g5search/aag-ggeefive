@@ -70,5 +70,7 @@ Color scales using the colors in the geefivegraphics.
 }
 \seealso{
 \code{\link{theme_geefive}()} for examples.
+
+Other colour geefive: \code{\link{geefive_pal}}
 }
-\concept{colour fivethirtyeight}
+\concept{colour geefive}

@@ -10,4 +10,7 @@ geefive_pal()
 The standard three-color G5 palette for line plots comprises
 blue, blue-grey, vermillion
 }
+\seealso{
+Other colour geefive: \code{\link{scale_colour_geefive}}
+}
 \concept{colour geefive}
